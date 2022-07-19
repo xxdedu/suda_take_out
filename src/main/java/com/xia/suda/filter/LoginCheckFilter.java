@@ -1,6 +1,7 @@
 package com.xia.suda.filter;
 
 import com.alibaba.fastjson.JSON;
+import com.xia.suda.common.BaseContext;
 import com.xia.suda.common.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.AntPathMatcher;
@@ -20,10 +21,16 @@ public class LoginCheckFilter implements Filter{
     //路径匹配器，支持通配符
     public static final AntPathMatcher PATH_MATCHER = new AntPathMatcher();
 
+
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
+
+        // 将用户id封装进ThreadLocal中
+//        BaseContext.setCurrentId((Long) request.getSession().getAttribute("employee"));
+        Long empId = (Long) request.getSession().getAttribute("employee");
+        BaseContext.setCurrentId(empId);
 
         //1、获取本次请求的URI
         String requestURI = request.getRequestURI();// /backend/index.html
