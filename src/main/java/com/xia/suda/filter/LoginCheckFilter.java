@@ -46,7 +46,8 @@ public class LoginCheckFilter implements Filter{
                 // "/employee" 这个不能加，有大坑
                 "/employee/**",
                 "/employee/page",
-                "/category/**"
+                "/category/**",
+                "/common/**"
         };
 
 

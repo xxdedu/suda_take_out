@@ -7,9 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a23529-0c21-4c25-925e-7f01ba321c9c" name="Changes" comment="feat:修改分类，判断分类有无关联菜品/套餐，有关联则无法删除">
+    <list default="true" id="07a23529-0c21-4c25-925e-7f01ba321c9c" name="Changes" comment="feat:修改分类">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/demo/upload.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/filter/LoginCheckFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/filter/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/filter/LoginCheckFilter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/xia/suda/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/backend/page/demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -69,6 +74,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\sudaGit\suda_take_out\src\main\resources\backend\page\demo" />
       <recent name="F:\15suda\suda\src\main\java\com\xia\suda\common" />
       <recent name="F:\15suda\suda\src\main\resources" />
       <recent name="F:\15suda\suda\src\main\java\com\xia\suda\entity" />
@@ -101,7 +107,8 @@
       <workItem from="1657636553253" duration="18345000" />
       <workItem from="1657900459797" duration="7191000" />
       <workItem from="1658110888498" duration="21611000" />
-      <workItem from="1658202754571" duration="17594000" />
+      <workItem from="1658202754571" duration="20980000" />
+      <workItem from="1658470778929" duration="385000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 公共字段自动填充">
       <created>1658217113575</created>
@@ -124,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658460979876</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat:修改分类">
+      <created>1658466837006</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658466837006</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +159,8 @@
     <MESSAGE value="feat: 公共字段自动填充" />
     <MESSAGE value="feat: 新增分类功能" />
     <MESSAGE value="feat:修改分类，判断分类有无关联菜品/套餐，有关联则无法删除" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:修改分类，判断分类有无关联菜品/套餐，有关联则无法删除" />
+    <MESSAGE value="feat:修改分类" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:修改分类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
