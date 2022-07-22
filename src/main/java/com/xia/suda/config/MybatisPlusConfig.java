@@ -1,4 +1,4 @@
-package com.xia.suda.controller;
+package com.xia.suda.config;
 
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
