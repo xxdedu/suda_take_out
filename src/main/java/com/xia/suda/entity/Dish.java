@@ -1,10 +1,9 @@
 package com.xia.suda.entity;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
-import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -66,7 +65,6 @@ public class Dish implements Serializable {
 
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private Long updateUser;
-
 
     //是否删除
     private Integer isDeleted;

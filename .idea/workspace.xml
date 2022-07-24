@@ -7,15 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a23529-0c21-4c25-925e-7f01ba321c9c" name="Changes" comment="feat:菜品管理-新建菜品-菜品分类的列表展示">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/dto/DishDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/dto/OrdersDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/dto/SetmealDto.java" afterDir="false" />
+    <list default="true" id="07a23529-0c21-4c25-925e-7f01ba321c9c" name="Changes" comment="feat:菜品管理-新建菜品-新增菜品">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/SudaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/SudaApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/DishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/DishService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/entity/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/entity/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/SudaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/SudaApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +107,7 @@
       <workItem from="1658110888498" duration="21611000" />
       <workItem from="1658202754571" duration="20980000" />
       <workItem from="1658470778929" duration="8032000" />
-      <workItem from="1658480183227" duration="7785000" />
+      <workItem from="1658480183227" duration="10311000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 公共字段自动填充">
       <created>1658217113575</created>
@@ -162,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658475844664</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat:菜品管理-新建菜品-新增菜品">
+      <created>1658665325392</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658665325392</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +190,8 @@
     <MESSAGE value="feat:文件上传" />
     <MESSAGE value="feat:文件下载" />
     <MESSAGE value="feat:菜品管理-新建菜品-菜品分类的列表展示" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:菜品管理-新建菜品-菜品分类的列表展示" />
+    <MESSAGE value="feat:菜品管理-新建菜品-新增菜品" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:菜品管理-新建菜品-新增菜品" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -196,11 +200,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/xia/suda/service/impl/CategoryServiceImpl.java</url>
           <line>34</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/xia/suda/controller/DishController.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
