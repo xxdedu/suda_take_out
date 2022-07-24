@@ -47,6 +47,7 @@ public class DishServiceImpl extends ServiceImpl<DishMapper, Dish> implements Di
         // 2.保存口味数据到dish_flavor表 flavors是一个集合，所以用saveBatch
 
         // 简单这么写是有问题的，此处的flavors只是封装了name和value两个属性，并没有封装dishId上，可以从上面获取到id
+        // todo 为什么dishId没有封装上
 //        dishFlavorService.saveBatch(dishDto.getFlavors());
 
         // 菜品口味
