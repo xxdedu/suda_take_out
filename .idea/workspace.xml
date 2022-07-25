@@ -7,11 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a23529-0c21-4c25-925e-7f01ba321c9c" name="Changes" comment="feat:套餐管理-套餐分类">
+    <list default="true" id="07a23529-0c21-4c25-925e-7f01ba321c9c" name="Changes" comment="feat:套餐管理-删除套餐，起售、停售套餐">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/SetmealController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/SetmealService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/impl/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/impl/SetmealServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/controller/SetmealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/controller/SetmealController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/service/SetmealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/service/SetmealService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/service/impl/SetmealServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/service/impl/SetmealServiceImpl.class" afterDir="false" />
@@ -111,7 +108,7 @@
       <workItem from="1658110888498" duration="21611000" />
       <workItem from="1658202754571" duration="20980000" />
       <workItem from="1658470778929" duration="8032000" />
-      <workItem from="1658480183227" duration="32272000" />
+      <workItem from="1658480183227" duration="32999000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 公共字段自动填充">
       <created>1658217113575</created>
@@ -232,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658729714052</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat:套餐管理-删除套餐，起售、停售套餐">
+      <created>1658734756340</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658734756340</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +269,8 @@
     <MESSAGE value="feat:套餐管理-新增套餐-添加菜品-添加附加查询条件，只查询出状态为起售的商品" />
     <MESSAGE value="feat:套餐管理-新增套餐-添加菜品" />
     <MESSAGE value="feat:套餐管理-套餐分类" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:套餐管理-套餐分类" />
+    <MESSAGE value="feat:套餐管理-删除套餐，起售、停售套餐" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:套餐管理-删除套餐，起售、停售套餐" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
