@@ -48,7 +48,8 @@ public class LoginCheckFilter implements Filter{
                 "/employee/page",
                 "/category/**",
                 "/common/**",
-                "/dish/**"
+                "/dish/**",
+                "/setmeal/**"
         };
 
 
