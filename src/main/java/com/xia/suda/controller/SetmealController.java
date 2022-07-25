@@ -95,4 +95,23 @@ public class SetmealController {
     }
 
 
+    /**
+     * 删除setmeal和setmeal_dish表对应的数据
+     * 注意：只能删除停售状态的套餐
+     * @param ids
+     * @return
+     */
+    @DeleteMapping
+    public R<String> delete(@RequestParam List<Long> ids) {
+        setmealService.removeWithDish(ids);
+        return R.success("删除套餐成功");
+    }
+
+    @PostMapping("/status/{ids}")
+    public R<String> updateStatus(Long ids) {
+        setmealService.updateStatus(ids);
+        return R.success("操作成功");
+    }
+
+
 }
