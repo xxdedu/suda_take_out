@@ -7,11 +7,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a23529-0c21-4c25-925e-7f01ba321c9c" name="Changes" comment="feat:套餐管理-删除套餐，起售、停售套餐">
+    <list default="true" id="07a23529-0c21-4c25-925e-7f01ba321c9c" name="Changes" comment="feat:用户-手机验证码登录">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/utils/SMSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/utils/ValidateCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/cartData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/controller/SetmealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/controller/SetmealController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/service/SetmealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/service/SetmealService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/service/impl/SetmealServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/service/impl/SetmealServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/filter/LoginCheckFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/api/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/api/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/js/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/member/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/api/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/api/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/js/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/js/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/api/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/api/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/js/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/category/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/combo/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/member/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/member/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/filter/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/filter/LoginCheckFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/api/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/api/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/js/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/js/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/page/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +86,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/xia/suda/dto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -72,11 +97,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\sudaGit\suda_take_out\src\main\resources" />
+      <recent name="E:\sudaGit\suda_take_out\src\main\java\com\xia\suda\utils" />
       <recent name="E:\sudaGit\suda_take_out\src\main\java\com\xia\suda\dto" />
       <recent name="E:\sudaGit\suda_take_out\src\main\resources\backend\page\demo" />
       <recent name="F:\15suda\suda\src\main\java\com\xia\suda\common" />
-      <recent name="F:\15suda\suda\src\main\resources" />
-      <recent name="F:\15suda\suda\src\main\java\com\xia\suda\entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xia.suda.service.impl" />
@@ -108,7 +133,7 @@
       <workItem from="1658110888498" duration="21611000" />
       <workItem from="1658202754571" duration="20980000" />
       <workItem from="1658470778929" duration="8032000" />
-      <workItem from="1658480183227" duration="32999000" />
+      <workItem from="1658480183227" duration="40546000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 公共字段自动填充">
       <created>1658217113575</created>
@@ -236,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658734756340</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat:套餐管理-删除套餐，起售、停售套餐">
+      <created>1658735442384</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658735442384</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +302,8 @@
     <MESSAGE value="feat:套餐管理-新增套餐-添加菜品" />
     <MESSAGE value="feat:套餐管理-套餐分类" />
     <MESSAGE value="feat:套餐管理-删除套餐，起售、停售套餐" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:套餐管理-删除套餐，起售、停售套餐" />
+    <MESSAGE value="feat:用户-手机验证码登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:用户-手机验证码登录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
