@@ -1,15 +1,21 @@
 package com.xia.suda.controller;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.xia.suda.common.R;
 import com.xia.suda.dto.SetmealDto;
+import com.xia.suda.entity.Category;
+import com.xia.suda.entity.Setmeal;
+import com.xia.suda.service.CategoryService;
 import com.xia.suda.service.SetmealDishService;
 import com.xia.suda.service.SetmealService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @Description:套餐管理
@@ -23,6 +29,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class SetmealController {
 
     @Autowired
+    private CategoryService categoryService;
+
+    @Autowired
     private SetmealDishService setmealDishService;
 
     @Autowired
@@ -30,6 +39,7 @@ public class SetmealController {
 
     /**
      * 向两张表中插入数据，setmeal和setmeal_dish
+     *
      * @param setmealDto
      * @return
      */
@@ -40,6 +50,49 @@ public class SetmealController {
     }
 
 
+    /**
+     * 注意pageInfo中只有categoryId，没有name
+     *
+     * @param page
+     * @param pageSize
+     * @param name
+     * @return
+     */
+    @GetMapping("/page")
+    public R<Page> page(int page, int pageSize, String name) {
+        // 构造分页构造器
+        Page<Setmeal> pageInfo = new Page<>(page, pageSize);
+        Page<SetmealDto> dtoPage = new Page<>(page, pageSize);
+
+        LambdaQueryWrapper<Setmeal> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.like(name != null, Setmeal::getName, name);
+        // 添加排序条件
+        queryWrapper.orderByDesc(Setmeal::getUpdateTime);
+        setmealService.page(pageInfo, queryWrapper);
+
+        // records不用拷贝，records中记录的是分页的列表数据，不用拷贝的原因是泛型不一样，
+        // dtoPage中的records是SetmealDto，pageInfo中的records是Setmeal
+        BeanUtils.copyProperties(pageInfo, dtoPage, "records");
+
+        List<Setmeal> records = pageInfo.getRecords();
+        List<SetmealDto> list = records.stream().map((item) -> {
+            SetmealDto setmealDto = new SetmealDto();
+            BeanUtils.copyProperties(item, setmealDto);
+            // 分类id
+            Long categoryId = item.getCategoryId();
+            // 根据分类id查询分类对象
+            Category category = categoryService.getById(categoryId);
+            if (category != null) {
+                // 分类名称
+                String categoryName = category.getName();
+                setmealDto.setCategoryName(categoryName);
+            }
+            return setmealDto;
+        }).collect(Collectors.toList());
+        dtoPage.setRecords(list);
+
+        return R.success(dtoPage);
+    }
 
 
 }

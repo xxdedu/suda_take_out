@@ -7,14 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a23529-0c21-4c25-925e-7f01ba321c9c" name="Changes" comment="feat:套餐管理-新增套餐-添加菜品-添加附加查询条件，只查询出状态为起售的商品">
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/controller/SetmealController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/mapper/SetmealDishMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/service/SetmealDishService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/service/impl/SetmealDishServiceImpl.class" afterDir="false" />
+    <list default="true" id="07a23529-0c21-4c25-925e-7f01ba321c9c" name="Changes" comment="feat:套餐管理-新增套餐-添加菜品">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/SetmealController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/SetmealService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/impl/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/impl/SetmealServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +65,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -111,7 +106,7 @@
       <workItem from="1658110888498" duration="21611000" />
       <workItem from="1658202754571" duration="20980000" />
       <workItem from="1658470778929" duration="8032000" />
-      <workItem from="1658480183227" duration="25322000" />
+      <workItem from="1658480183227" duration="27278000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 公共字段自动填充">
       <created>1658217113575</created>
@@ -218,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658726504746</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat:套餐管理-新增套餐-添加菜品">
+      <created>1658728001872</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658728001872</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,9 +250,9 @@
     <MESSAGE value="feat:菜品管理-修改菜品-修改两张表dish和dish_flavor" />
     <MESSAGE value="feat:DishDto中的dishId没有封装上" />
     <MESSAGE value="feat:套餐管理-搭建框架-mapper、service、controller" />
-    <MESSAGE value="feat:套餐管理-新增套餐-添加菜品" />
     <MESSAGE value="feat:套餐管理-新增套餐-添加菜品-添加附加查询条件，只查询出状态为起售的商品" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:套餐管理-新增套餐-添加菜品-添加附加查询条件，只查询出状态为起售的商品" />
+    <MESSAGE value="feat:套餐管理-新增套餐-添加菜品" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:套餐管理-新增套餐-添加菜品" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
