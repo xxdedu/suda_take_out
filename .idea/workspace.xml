@@ -7,12 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a23529-0c21-4c25-925e-7f01ba321c9c" name="Changes" comment="feat:用户-导入用户地址簿">
+    <list default="true" id="07a23529-0c21-4c25-925e-7f01ba321c9c" name="Changes" comment="feat:用户-菜品展示">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/mapper/ShoppingCartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/DishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/SetmealController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/front/api/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/api/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/controller/DishController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/front/api/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/api/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +86,7 @@
       <recent name="com.xia.suda.service.impl" />
       <recent name="com.xia.suda.service" />
       <recent name="com.xia.suda.mapper" />
-      <recent name="com.xia.suda.filter" />
+      <recent name="com.xia.suda.entity" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,7 +112,7 @@
       <workItem from="1658202754571" duration="20980000" />
       <workItem from="1658470778929" duration="8032000" />
       <workItem from="1658480183227" duration="40546000" />
-      <workItem from="1658755469529" duration="7110000" />
+      <workItem from="1658755469529" duration="10526000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 公共字段自动填充">
       <created>1658217113575</created>
@@ -260,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658815179790</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat:用户-菜品展示">
+      <created>1658818345094</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1658818345094</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +304,8 @@
     <MESSAGE value="feat:套餐管理-删除套餐，起售、停售套餐" />
     <MESSAGE value="feat:用户-手机验证码登录" />
     <MESSAGE value="feat:用户-导入用户地址簿" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:用户-导入用户地址簿" />
+    <MESSAGE value="feat:用户-菜品展示" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:用户-菜品展示" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
