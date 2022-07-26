@@ -45,8 +45,8 @@ public class LoginCheckFilter implements Filter{
                 "/common/**",
                 "/dish/**",
                 "/setmeal/**",
-                "/user/**",
-                "/**",
+                "/user/sendMsg",
+                "/user/login",
                 "/front/**"
         };
 
