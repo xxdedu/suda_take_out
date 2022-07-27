@@ -9,8 +9,32 @@
   <component name="ChangeListManager">
     <list default="true" id="07a23529-0c21-4c25-925e-7f01ba321c9c" name="Changes" comment="feat:Redis缓存短信验证码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/SudaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/SudaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/common/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xia/suda/controller/SetmealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xia/suda/controller/DishController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/controller/SetmealController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/mapper/CategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/mapper/DishFlavorMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/mapper/DishMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/mapper/EmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/mapper/SetmealDishMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/mapper/SetmealMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/service/SetmealDishService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/service/SetmealService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/service/impl/DishFlavorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/service/impl/DishServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/service/impl/EmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/service/impl/SetmealDishServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/service/impl/SetmealServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xia/suda/service/impl/UserServiceImpl.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +53,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -281,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658848419162</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="feat:Redis缓存菜品">
+      <created>1658884019242</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1658884019242</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +328,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/xxd" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -320,7 +368,8 @@
     <MESSAGE value="feat:用户-菜品展示" />
     <MESSAGE value="feat:用户-购物车-展示、添加、清空购物车" />
     <MESSAGE value="feat:Redis缓存短信验证码" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:Redis缓存短信验证码" />
+    <MESSAGE value="feat:Redis缓存菜品" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:Redis缓存菜品" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
